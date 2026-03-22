@@ -12,21 +12,22 @@ It does not just jiggle a mouse. It thinks, it breathes, it makes typos, and it 
 * **Deep Human Slop Simulator:** Mimics transposition errors (typing "eh", deleting it, typing "he"), fat-fingers the Enter key, and pauses mid-sentence to "stare at the screen."
 * **Advanced HID Spoofing:** `boot.py` amputates all default CircuitPython serial, storage, audio, and MIDI endpoints, successfully enumerating to the host OS strictly as a generic Logitech USB Receiver.
 * **Analog Control Surface:** Features a potentiometer-driven Cylon LED scanner (with phase-accumulated anti-aliasing) to control mouse sweep intensity, and tactical switches for payload deployment.
-* **Hardware Audio:** Mechanical tactile feedback via an active buzzer, and a passive PWM buzzer for status alerts.
+* **Hardware Audio:** Mechanical tactile feedback via an active buzzer, and a passive PWM buzzer for status alerts. 
 
 ## 🛠️ Hardware Bill of Materials (BOM)
 
-* 1x Raspberry Pi Pico (RP2040 or RP2350)
+* 1x Raspberry Pi Pico or Pico 2(RP2040 or RP2350)
 * 1x 10k Potentiometer
 * 2x Tactile Push Buttons
 * 1x 10-Segment LED Bar Graph
 * 1x Common Anode RGB LED
+* 1x Red (or similar) LED
 * 1x Active Buzzer
 * 1x Passive Buzzer
-* 11x 220Ω Resistors
+* 12x 220Ω Resistors
 * Breadboard & Jumper Wires
 
-*See the `/docs/wiring.png` diagram for the complete pinout mapping.*
+*See the `/docs/Dead Parrot Protocol_bb.png` diagram for the complete pinout mapping. I've also included a Fritzing model to help clarify what's going on with the wires*
 
 ## 🚀 Installation & Deployment
 
